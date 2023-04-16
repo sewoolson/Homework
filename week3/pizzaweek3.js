@@ -10,10 +10,12 @@ const pizzaToppings = [
 // // Create a greetCustomer function that prints a message that welcomes a guest, then informs them of the available toppings by looping over pizzaToppings (don't worry about perfect grammar here yet, i.e. "a, b, and c", see Bonus Challenge #9)
 // // i.e. "Welcome to Pizza House, our toppings are: a, b, c, ..."
 
+//
+
 function greetCustomer() {
 let greeting = "Welcome to Nice Slice! Our pizza toppings are ";
 for (let topping of pizzaToppings) {
-  greeting += `${topping}` }  ;
+  greeting += `${topping}`};
 console.log(greeting);
 }
 
