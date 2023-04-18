@@ -1,0 +1,75 @@
+
+div {
+width: 800px;
+border: 2px lavender;
+padding: 25px;
+margin: 20px;
+}
+
+header {
+ object-position: 0%;
+}
+
+.hero-image {
+  height: 50%;
+  width: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#subtitle {
+  color: gray;
+  font-size: x-small;
+}
+
+a:hover {
+  background-color: plum;
+}
+
+h1 {
+ font-family: sans-serif;
+ color: blueviolet;
+ font-size: large;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: navy;
+  font-size: medium;
+}
+
+p {
+  font-family: serif;
+  color: black;
+  font-size: small;
+
+}
+
+a:link {
+ text-decoration: none;
+}
+
+a:visited {
+  text-decoration: line-through;
+  color: gray;
+}
+
+a:hover {
+  text-decoration: solid;
+  color: darkmagenta;
+}
+
+ol , ul {
+text-align: left;
+text-anchor: start;
+}
+
+li {
+text-align: left;
+}
+
+footer {
+ text-align: center;
+ font-size: smaller;
+}
