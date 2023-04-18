@@ -58,7 +58,7 @@ function servePizza(pizza) {
 
 // // Welcome to The Pizza House, our toppings are: pepperoni, sausage, onions, peppers, One large thin crust pizza with sausage, onions, peppers, . Coming up! ...your pizza is cooking... Order up! Here's your large thin crust pizza with sausage, onions, peppers, . Enjoy!
 
-greetCustomerO();
+greetCustomer();
 let pizzaOrder = ("small","handtossed", "pepperoni", "mushrooms", "olives");
 let prepPizza = preparePizza(pizzaOrder);
 servePizza(prepPizza);
