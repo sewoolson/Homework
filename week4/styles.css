@@ -18,9 +18,13 @@ header {
   background-size: cover;
 }
 
-#subtitle {
+#subtitle1 {
   color: gray;
   font-size: x-small;
+}
+
+main p {
+  color: navy;
 }
 
 a:hover {
@@ -55,11 +59,6 @@ a:visited {
   color: gray;
 }
 
-a:hover {
-  text-decoration: solid;
-  color: darkmagenta;
-}
-
 ol , ul {
 text-align: left;
 text-anchor: start;
@@ -73,3 +72,4 @@ footer {
  text-align: center;
  font-size: smaller;
 }
+
