@@ -11,9 +11,8 @@ header {
 }
 
 .hero-image {
-  height: 50%;
-  width: relative;
-  background-position: center;
+  width: 350px;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }

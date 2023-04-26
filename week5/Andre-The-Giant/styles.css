@@ -1,0 +1,12 @@
+/* This media query applies to screen-reader devices */
+@media (max-width: 400px) {
+  * {
+    background-color: blue;
+  }
+  img {
+    max-width: 300px;
+  }
+  body {
+    content-visibility: auto;
+  }
+}
