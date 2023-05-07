@@ -300,14 +300,81 @@ const data =
     "title": "cupiditate necessitatibus ullam aut quis dolor voluptate",
     "completed": true
   }
+
 ]
 
-let user3ToDo = [];
-let filteredlist = user3ToDo.filter(function (user3ToDo)) {
-  return user3ToDo = false;
-};
+// create a list of user 3's to-dos
+let user3ToDo = data.filter(element => element.userId === 3);
 
-console.log(filteredlist);
+console.log(user3ToDo);
 
+//returned [
+//   {
+//     userId: 3,
+//     id: 41,
+//     title: 'aliquid amet impedit consequatur aspernatur placeat eaque fugiat suscipit',
+//     completed: false
+//   },
+//   {
+//     userId: 3,
+//     id: 42,
+//     title: 'rerum perferendis error quia ut eveniet',
+//     completed: false
+//   },
+//   {
+//     userId: 3,
+//     id: 43,
+//     title: 'tempore ut sint quis recusandae',
+//     completed: true
+//   },
+//   {
+//     userId: 3,
+//     id: 44,
+//     title: 'cum debitis quis accusamus doloremque ipsa natus sapiente omnis',
+//     completed: true
+//   },
+//   {
+//     userId: 3,
+//     id: 45,
+//     title: 'velit soluta adipisci molestias reiciendis harum',
+//     completed: false
+//   },
+//   {
+//     userId: 3,
+//     id: 46,
+//     title: 'vel voluptatem repellat nihil placeat corporis',
+//     completed: false
+//   },
+//   {
+//     userId: 3,
+//     id: 47,
+//     title: 'nam qui rerum fugiat accusamus',
+//     completed: false
+//   },
+//   {
+//     userId: 3,
+//     id: 48,
+//     title: 'sit reprehenderit omnis quia',
+//     completed: false
+//   },
+//   {
+//     userId: 3,
+//     id: 49,
+//     title: 'ut necessitatibus aut maiores debitis officia blanditiis velit et',
+//     completed: false
+//   },
+//   {
+//     userId: 3,
+//     id: 50,
+//     title: 'cupiditate necessitatibus ullam aut quis dolor voluptate',
+//     completed: true
+//   }
+// ]
 
-//unsure on what I'm doing wrong. My plan was to target user 3 direction and return only the uncompleted tasks by targeting false.
+// then find the number of user 3's incomplete tasks
+
+let incomplete = user3ToDo.filter(incom => incom.completed === false);
+console.log(incomplete.length);
+
+//7
+
